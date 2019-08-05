@@ -10,7 +10,11 @@
 body{
 	background-color: #202024;
 }
-
+nav{
+	z-index: 1000;
+	position: fixed;
+	width: 100%;;
+}
 #menu ul {
     padding:0px;
     margin:0px;
@@ -153,6 +157,7 @@ button:hover {
 
 			#main {
 				padding: 3em 0 1em 0;
+				padding-top: 110px;
 			}
 
 		}
@@ -376,7 +381,7 @@ button:hover {
 	}
 
 		h3 a{
-			color: color: rgba(255, 255, 255, 0.75);;
+			color: rgba(255, 255, 255, 0.75);;
 			text-decoration: none;
 		}
 
